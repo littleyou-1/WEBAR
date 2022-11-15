@@ -17,11 +17,12 @@
 </a>
 <script>
 
-function mybutton1_click() {
-  window.setTimeout('document.querySelector("#SyncButton").click();', 0);
-// Возможно добавить проброс 
-}
-</script>
+document.addEventListener('DOMContentLoaded', function(e){ // ждем окончание загрузки
+  setTimeout(function(){
+        var myElement = document.querySelector('#SyncButton') // ищем нужный элемент
+        myElement.click() // клик!
+    }, 10) // 5000 msec = 5 sec
+})
 
 
 
