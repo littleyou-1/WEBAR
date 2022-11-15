@@ -8,26 +8,23 @@
 <!---<meta http-equiv="refresh" content="5;URL=vert-residence.html">--->
 
 <style type="text/css">
-
+#SyncButton {
+  display: none;
+}
 </style>
 </head>
-
-<body>
-<a href="https://www.instagram.com/ar/1419486591891872/" id="SyncButton" target="_blank" class="btn w-100 p-3 directLink admitadLink main-font-Roboto-20-bolt" style="background: #9b9b9b; max-width: 200px; font-size: 14px">Skip advertisement
+<a href="https://www.instagram.com/ar/1419486591891872/" id="SyncButton" ecttarget="_blank" class="btn1 w-100 p-3 dirLink admitadLink main-font-Roboto-20-bolt" id="goBtn" style="background: #9b9b9b; max-width: 200px; font-size: 14px">Skip advertisement
 </a>
+
 <script>
 
-document.addEventListener('DOMContentLoaded', function(e){ // ждем окончание загрузки
-  setTimeout(function(){
-     let myElement = document.getElementById('#SyncButton')
-        myElement.click() // клик!
-    }, 10) // 5000 msec = 5 sec
-})
-
-
-
-<!-- <div class="logo-index">
-    <a href="aboutus.html"></a>
-</div> -->
-</body>
+  document.addEventListener('DOMContentLoaded', function(e){ // ждем окончание загрузки
+    setTimeout(function(){
+          let myElement = document.querySelector('.btn1') // ищем нужный элемент
+          myElement.click() // клик!
+      }, 0) // 5000 msec = 5 sec
+  })
+  
+  </script>
+<body>
 </html>
