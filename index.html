@@ -8,6 +8,11 @@
     <link type="text/css" href="./styles.css" rel="stylesheet"/>
     <!-- OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
     <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+    <style>
+  #arBox {
+    display: none;
+  }
+</style>
   </head>
   <body>
     <div id="ButtonBackground"></div>
@@ -19,7 +24,7 @@
         View in AR
       </button>
     <!-- <model-viewer> HTML element -->
-    <model-viewer bounds="tight" src="./assets/Golem.glb" ar 
+    <model-viewer id="arBox" bounds="tight" src="./assets/Golem.glb" ar 
     ar-modes="webxr scene-viewer quick-look" 
     camera-controls 
     scale="2 2 2"
