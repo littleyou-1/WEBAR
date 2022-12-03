@@ -62,14 +62,7 @@ butFront.addEventListener('click', function() {
         }
         
    } 
-// автоматично переходимо в режим ар 
-   document.addEventListener('DOMContentLoaded', function(e){ // ждем окончание загрузки
-    setTimeout(function(){
-          let myElement = document.getElementById('ar-button') // ищем нужный элемент
-          myElement.click() // клик!
 
-      }, 0) // 5000 msec = 5 sec
-  })
 
   //Повертаємо кнопку перейти в режим ар 
   document.addEventListener('DOMContentLoaded', function(e){ // ждем окончание загрузки
