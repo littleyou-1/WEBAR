@@ -5,14 +5,11 @@
     <meta charset="utf-8">
     <meta name="description" content="&lt;model-viewer&gt; template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+    <link type="text/css" href="./style.css" rel="stylesheet"/>
     <!-- OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
     <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
     <style>
-  #arBox {
-    display: none;
-  }
-  button {
+   #arBox {
     display: none;
   }
 </style>
@@ -24,14 +21,13 @@
         View in AR
       </button>
     <!-- <model-viewer> HTML element -->
-    <model-viewer id="arBox" bounds="tight" src="./assets/PatronStay.glb" ar 
+    <model-viewer class="model" id="arBox" bounds="tight"  ar 
     ar-modes="webxr scene-viewer quick-look" 
     camera-controls 
     scale="2 2 2"
     environment-image="neutral" 
     shadow-intensity="1" 
     autoplay
-    ios-src="./assets/PatronStay.usdz" 
     xr-environment
     > 
       
@@ -39,23 +35,16 @@
           <div class="update-bar"></div>
       </div>
       <button slot="ar-button" id="ar-button">
-          View in AR
       </button>
-      <div id="ar-prompt">
-          <img src="assets/img/ar_hand_prompt.png">
-      </div>
+
+
     </model-viewer>  
-    <script src="script.js"></script>
+    <script src="script/script.js"></script>
     <!-- Loads <model-viewer> for browsers: -->
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <script>
 
-  document.addEventListener('DOMContentLoaded', function(e){ // ждем окончание загрузки
-    setTimeout(function(){
-          let myElement = document.getElementById('ar-button') // ищем нужный элемент
-          myElement.click() // клик!
-      }, 0) // 5000 msec = 5 sec
-  })
+
   
   </script>
   </body>
