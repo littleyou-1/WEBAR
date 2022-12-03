@@ -64,7 +64,7 @@ butFront.addEventListener('click', function() {
    } 
 
 
-  //Повертаємо кнопку перейти в режим ар 
+/*  //Повертаємо кнопку перейти в режим ар 
   document.addEventListener('DOMContentLoaded', function(e){ // ждем окончание загрузки
     setTimeout(function(){    
           document.querySelector("#ar-buttonFront").style.color = "#4285f4";
@@ -72,7 +72,7 @@ butFront.addEventListener('click', function() {
       }, 2000)
   })
 
-
+*/
  
 
 /* function changeLink (NowLink) {
