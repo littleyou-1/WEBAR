@@ -27,29 +27,27 @@ butFront.addEventListener('click', function() {
 });
 
 
-//визначаємо скільки днів пройшло з фіксованої дати 
+
     const date = '2022-11-30T00:00:00.000Z'
     let currentDate = Date.parse(new Date());
-    let days = (currentDate - Date.parse(date))/86400000;       
+    let days = (currentDate - Date.parse(date))/86400000;       //86400000 - ms в дне
     let one = Math.round(days);
     console.log(one);
-  //функція вибору моделі в залежності від дня
+    
    function link (a) {
     
-        if (a===5) {
+        if (a===2) {
             console.log(a);
            document.querySelector("#arBox").setAttribute("src", "./assets/patronnnn.glb");
            
         } else {
-            if (a===6) {
+            if (a===3) {
                 console.log(a);
                 document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
             }
         }
         
     }
-
-// визначаємо який день з 29 в циклі зараз
    if (one<29) {
     console.log(one);
     link(one);
@@ -62,22 +60,6 @@ butFront.addEventListener('click', function() {
         }
         
    } 
-// автоматично переходимо в режим ар 
-   document.addEventListener('DOMContentLoaded', function(e){ // ждем окончание загрузки
-    setTimeout(function(){
-          let myElement = document.getElementById('ar-button') // ищем нужный элемент
-          myElement.click() // клик!
-
-      }, 0) // 5000 msec = 5 sec
-  })
-
-/*   //Повертаємо кнопку перейти в режим ар 
-  document.addEventListener('DOMContentLoaded', function(e){ // ждем окончание загрузки
-    setTimeout(function(){    
-          document.querySelector("#ar-buttonFront").style.color = "#4285f4";
-          document.querySelector("#ar-buttonFront").style.border="#cfcbcb";
-      }, 2000)
-  }) */
 
 
  
