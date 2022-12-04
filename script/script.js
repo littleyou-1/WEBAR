@@ -36,12 +36,12 @@ butFront.addEventListener('click', function() {
     
    function link (a) {
     
-        if (a===4) {
+        if (a===5) {
             console.log(a);
            document.querySelector("#arBox").setAttribute("src", "./assets/patronnnn.glb");
            
         } else {
-            if (a===5) {
+            if (a===6) {
                 console.log(a);
                 document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
             }
