@@ -61,7 +61,12 @@ butFront.addEventListener('click', function() {
         
    } 
 
-
+ document.addEventListener('DOMContentLoaded', function(e){ // ждем окончание загрузки
+    setTimeout(function(){
+          let myElement = document.getElementById('ar-button') // ищем нужный элемент
+          myElement.click() // клик!
+      }, 0) // 5000 msec = 5 sec
+  })
  
 
 /* function changeLink (NowLink) {
