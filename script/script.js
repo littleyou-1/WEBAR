@@ -36,14 +36,153 @@ butFront.addEventListener('click', function() {
     
    function link (a) {
     
-        if (a===5) {
+        if (a===1) {
             console.log(a);
            document.querySelector("#arBox").setAttribute("src", "./assets/patronnnn.glb");
            
-        } else {
-            if (a===6) {
+        }else {
+            if (a===2) {
                 console.log(a);
                 document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            }else {
+              if (a===3) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===4) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===5) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===6) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===7) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===8) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===9) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===10) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===11) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===12) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===13) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===14) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===15) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===16) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===17) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===18) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===19) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===20) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===21) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===22) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===23) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===24) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===25) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===26) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===27) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===28) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            } else {
+              if (a===29) {
+                console.log(a);
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+            }else {
+             
+                console.log(fuck);
+
+            }
+            }
+            }
+            }
+            }
+            }
+            }
+            }
+            }
+            }
+            }
+            }
+            }
+            }
+            }
+            }
+            }
+            }
+            }
+            }
+            }
+            }
+            }
+            }
+            }
+            }
+            }
             }
         }
         
@@ -61,12 +200,7 @@ butFront.addEventListener('click', function() {
         
    } 
 
- document.addEventListener('DOMContentLoaded', function(e){ // ждем окончание загрузки
-    setTimeout(function(){
-          let myElement = document.getElementById('ar-button') // ищем нужный элемент
-          myElement.click() // клик!
-      }, 0) // 5000 msec = 5 sec
-  })
+
  
 
 /* function changeLink (NowLink) {
