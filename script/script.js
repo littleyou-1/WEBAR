@@ -41,7 +41,7 @@ butFront.addEventListener('click', function() {
            document.querySelector("#arBox").setAttribute("src", "./assets/patronnnn.glb");
            
         } else {
-            if (a===3) {
+            if (a===6) {
                 console.log(a);
                 document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
             }
