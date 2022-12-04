@@ -204,21 +204,4 @@ butFront.addEventListener('click', function() {
             console.log(fuck);
         }
         
-   } 
-
-
- 
-
-/* function changeLink (NowLink) {
-    const date = '2022-11-02T00:00:00.000Z'
-    let currentDate = Date.parse(new Date());
-    let days = (currentDate - Date.parse(date))/86400000;       //86400000 - ms в дне
-    let = DayBox;
-    DayBox = Math.round(days);
-    for (let i = DayBox; i<=29; i-29) {
-       console.log(i);
-    }
-    return NowLink;
-    
-}
-console.log(changeLink); */
+   };
