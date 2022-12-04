@@ -36,7 +36,7 @@ butFront.addEventListener('click', function() {
   //функція вибору моделі в залежності від дня
    function link (a) {
     
-        if (a===4) {
+        if (a===5) {
             console.log(a);
            document.querySelector("#arBox").setAttribute("src", "./assets/patronnnn.glb");
            
@@ -62,17 +62,24 @@ butFront.addEventListener('click', function() {
         }
         
    } 
+// автоматично переходимо в режим ар 
+   document.addEventListener('DOMContentLoaded', function(e){ // ждем окончание загрузки
+    setTimeout(function(){
+          let myElement = document.getElementById('ar-button') // ищем нужный элемент
+          myElement.click() // клик!
 
+      }, 0) // 5000 msec = 5 sec
+  })
 
-/*  //Повертаємо кнопку перейти в режим ар 
+/*   //Повертаємо кнопку перейти в режим ар 
   document.addEventListener('DOMContentLoaded', function(e){ // ждем окончание загрузки
     setTimeout(function(){    
           document.querySelector("#ar-buttonFront").style.color = "#4285f4";
           document.querySelector("#ar-buttonFront").style.border="#cfcbcb";
       }, 2000)
-  })
+  }) */
 
-*/
+
  
 
 /* function changeLink (NowLink) {
