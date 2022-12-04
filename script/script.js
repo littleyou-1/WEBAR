@@ -21,6 +21,12 @@ const onProgress = (event) => {
     }
   }
 };
+ document.addEventListener('DOMContentLoaded', function(e){ // ждем окончание загрузки
+    setTimeout(function(){
+  butFront.addEventListener('click', function() {
+  butBack.click();
+      }, 0) // 5000 msec = 5 sec
+  })
 document.querySelector('model-viewer').addEventListener('progress', onProgress);
 butFront.addEventListener('click', function() {
   butBack.click();
