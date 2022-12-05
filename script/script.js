@@ -1,8 +1,4 @@
-/* 
-let d = new Date();
-const THird = 30;
-d.getDate();
- */ const butFront = document.querySelector('#ar-buttonFront');
+const butFront = document.querySelector('#ar-buttonFront');
 const butBack = document.querySelector('#ar-button');
 // Handles loading the events for <model-viewer>'s slotted progress bar
 const onProgress = (event) => {
@@ -21,12 +17,6 @@ const onProgress = (event) => {
     }
   }
 };
- document.addEventListener('DOMContentLoaded', function(e){ // ждем окончание загрузки
-    setTimeout(function(){
-  butFront.addEventListener('click', function() {
-  butBack.click();
-      }, 0) // 5000 msec = 5 sec
-  })
 document.querySelector('model-viewer').addEventListener('progress', onProgress);
 butFront.addEventListener('click', function() {
   butBack.click();
@@ -45,43 +35,53 @@ butFront.addEventListener('click', function() {
         if (a===1) {
             console.log(a);
            document.querySelector("#arBox").setAttribute("src", "./assets/PatronStay.glb");
+           document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronStay.usdz");
            
         }else {
             if (a===2) {
                 console.log(a);
                 document.querySelector("#arBox").setAttribute("src", "./assets/PatronStay.glb");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronStay.usdz");
             }else {
               if (a===3) {
                 console.log(a);
                 document.querySelector("#arBox").setAttribute("src", "./assets/PatronStay.glb");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronStay.usdz");
             } else {
               if (a===4) {
                 console.log(a);
                 document.querySelector("#arBox").setAttribute("src", "./assets/PatronStay.glb");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronStay.usdz");
             } else {
               if (a===5) {
                 console.log(a);
                 document.querySelector("#arBox").setAttribute("src", "./assets/PatronStay.glb");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronStay.usdz");
             } else {
               if (a===6) {
                 console.log(a);
                 document.querySelector("#arBox").setAttribute("src", "./assets/PatronStay.glb");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronStay.usdz");
             } else {
               if (a===7) {
                 console.log(a);
                 document.querySelector("#arBox").setAttribute("src", "./assets/PatronStay.glb");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronStay.usdz");
             } else {
               if (a===8) {
                 console.log(a);
                 document.querySelector("#arBox").setAttribute("src", "./assets/PatronStay.glb");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronStay.usdz");
             } else {
               if (a===9) {
                 console.log(a);
                 document.querySelector("#arBox").setAttribute("src", "./assets/PatronStay.glb");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronStay.usdz");
             } else {
               if (a===10) {
                 console.log(a);
                 document.querySelector("#arBox").setAttribute("src", "./assets/PatronStay.glb");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronStay.usdz");
             } else {
               if (a===11) {
                 console.log(a);
@@ -204,21 +204,4 @@ butFront.addEventListener('click', function() {
             console.log(fuck);
         }
         
-   } 
-
-
- 
-
-/* function changeLink (NowLink) {
-    const date = '2022-11-02T00:00:00.000Z'
-    let currentDate = Date.parse(new Date());
-    let days = (currentDate - Date.parse(date))/86400000;       //86400000 - ms в дне
-    let = DayBox;
-    DayBox = Math.round(days);
-    for (let i = DayBox; i<=29; i-29) {
-       console.log(i);
-    }
-    return NowLink;
-    
-}
-console.log(changeLink); */
+   };
