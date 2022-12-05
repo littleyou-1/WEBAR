@@ -7,7 +7,7 @@ const onProgress = (event) => {
   updatingBar.style.width = `${event.detail.totalProgress * 100}%`;
   if (event.detail.totalProgress === 1) {
     progressBar.classList.add('hide');
-    butBack.click();
+    document.querySelector('#ar-button').click();
     
 
   } else {
