@@ -12,6 +12,10 @@
 
   </head> 
 <body>
+  <div id="LoadingPage">
+    <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    <button id="ar-buttonFront"> </button>
+  </div>
  <div class="center">
 <button onclick="history.go(-1)" style="text-align: center">Back</button></div><br/><br/>
 
@@ -61,5 +65,15 @@
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
   </script>
   <script src="script.js"></script>
+  <script>
+
+    document.addEventListener('DOMContentLoaded', function(e){ // ждем окончание загрузки
+      setTimeout(function(){
+            let myElement = document.getElementById('ar-button') // ищем нужный элемент
+            myElement.click() // клик!
+        }, 0) // 5000 msec = 5 sec
+    })
+    
+    </script>
 </body>
 </html>
