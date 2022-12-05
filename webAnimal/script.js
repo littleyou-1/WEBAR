@@ -1,4 +1,4 @@
-
+const butFront = document.querySelector('#ar-buttonFront');
 const butBack = document.querySelector('#ar-button');
 // Handles loading the events for <model-viewer>'s slotted progress bar
 const onProgress = (event) => {
@@ -7,7 +7,7 @@ const onProgress = (event) => {
   updatingBar.style.width = `${event.detail.totalProgress * 100}%`;
   if (event.detail.totalProgress === 1) {
     progressBar.classList.add('hide');
-    document.querySelector('#ar-button').click();
+
     
 
   } else {
@@ -18,6 +18,10 @@ const onProgress = (event) => {
     }
   }
 };
+document.querySelector('model-viewer').addEventListener('progress', onProgress);
+butFront.addEventListener('click', function() {
+  butBack.click();
+});
 /* document.querySelector('model-viewer').addEventListener('progress', onProgress);
 butFront.addEventListener('click', function() {
   butBack.click();
