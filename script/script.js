@@ -34,58 +34,58 @@ butFront.addEventListener('click', function() {
     
         if (a===1) {
             console.log(a);
-           document.querySelector("#arBox").setAttribute("src", "./assets/PatronStay.glb");
-           document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronStay.usdz");
+           document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+           document.querySelector("#arBox").setAttribute("ios-src", "./assets/Patron.usdz");
            
         }else {
             if (a===2) {
                 console.log(a);
-                document.querySelector("#arBox").setAttribute("src", "./assets/PatronStay.glb");
-                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronStay.usdz");
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/Patron.usdz");
             }else {
               if (a===3) {
                 console.log(a);
-                document.querySelector("#arBox").setAttribute("src", "./assets/PatronStay.glb");
-                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronStay.usdz");
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/Patron.usdz");
             } else {
               if (a===4) {
                 console.log(a);
-                document.querySelector("#arBox").setAttribute("src", "./assets/PatronStay.glb");
-                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronStay.usdz");
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/Patron.usdz");
             } else {
               if (a===5) {
                 console.log(a);
-                document.querySelector("#arBox").setAttribute("src", "./assets/PatronStay.glb");
-                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronStay.usdz");
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/Patron.usdz");
             } else {
               if (a===6) {
                 console.log(a);
-                document.querySelector("#arBox").setAttribute("src", "./assets/PatronStay.glb");
-                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronStay.usdz");
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/Patron.usdz");
             } else {
               if (a===7) {
                 console.log(a);
-                document.querySelector("#arBox").setAttribute("src", "./assets/PatronStay.glb");
-                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronStay.usdz");
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/Patron.usdz");
             } else {
               if (a===8) {
                 console.log(a);
-                document.querySelector("#arBox").setAttribute("src", "./assets/PatronStay.glb");
-                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronStay.usdz");
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/Patron.usdz");
             } else {
               if (a===9) {
                 console.log(a);
-                document.querySelector("#arBox").setAttribute("src", "./assets/PatronStay.glb");
-                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronStay.usdz");
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/Patron.usdz");
             } else {
               if (a===10) {
                 console.log(a);
-                document.querySelector("#arBox").setAttribute("src", "./assets/PatronStay.glb");
-                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronStay.usdz");
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/Patron.usdz");
             } else {
               if (a===11) {
                 console.log(a);
-                document.querySelector("#arBox").setAttribute("src", "./assets/PatronStay.glb");
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
             } else {
               if (a===12) {
                 console.log(a);
@@ -145,7 +145,7 @@ butFront.addEventListener('click', function() {
             } else {
               if (a===26) {
                 console.log(a);
-                document.querySelector("#arBox").setAttribute("src", "./assets/PatronStay.glb");
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
             } else {
               if (a===27) {
                 console.log(a);
