@@ -65,13 +65,13 @@ butFront.addEventListener('click', function() {
             } else {
               if (a===7) {
                 console.log(a);
-                document.querySelector("#arBox").setAttribute("src", "./assets/PatronUs.glb");
-                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronUs.usdz");
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/Patron.usdz");
             } else {
               if (a===8) {
                 console.log(a);
-                document.querySelector("#arBox").setAttribute("src", "./assets/PatronUs.glb");
-                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronUs.usdz");
+                document.querySelector("#arBox").setAttribute("src", "./assets/Patron.glb");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/Patron.usdz");
             } else {
               if (a===9) {
                 console.log(a);
