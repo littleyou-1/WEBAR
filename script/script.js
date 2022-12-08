@@ -66,17 +66,17 @@ butFront.addEventListener('click', function() {
               if (a===7) {
                 console.log(a);
                 document.querySelector("#arBox").setAttribute("src", "./assets/PatronUs_noBuble.glb");
-                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronUs.usdz");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/Patron_Us_No_Buble.usdz");
             } else {
               if (a===8) {
                 console.log(a);
                 document.querySelector("#arBox").setAttribute("src", "./assets/PatronUs_noBuble.glb");
-                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronUs.usdz");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/Patron_Us_No_Buble.usdz");
             } else {
               if (a===9) {
                 console.log(a);
                document.querySelector("#arBox").setAttribute("src", "./assets/PatronUs_noBuble.glb");
-                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronUs.usdz");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/Patron_Us_No_Buble.usdz");
             } else {
               if (a===10) {
                 console.log(a);
