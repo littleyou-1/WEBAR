@@ -18,11 +18,7 @@ const onProgress = (event) => {
   }
 };
 document.querySelector('model-viewer').addEventListener('progress', onProgress);
-document.addEventListener('DOMContentLoaded', function(e){ // ждем окончание загрузки
-    setTimeout(function(){
-          butFront.click() // клик!
-      }, 0)
-  })
+butFront.click() // клик!
 butFront.addEventListener('click', function() {
   butBack.click();
 });
