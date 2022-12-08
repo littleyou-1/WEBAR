@@ -18,10 +18,11 @@ const onProgress = (event) => {
   }
 };
 document.querySelector('model-viewer').addEventListener('progress', onProgress);
-butFront.click() // клик!
 butFront.addEventListener('click', function() {
   butBack.click();
 });
+butFront.click() // клик!
+
 
 
 
