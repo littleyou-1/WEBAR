@@ -78,17 +78,17 @@ butFront.click() // клик!
               if (a===9) {
                 console.log(a);
                document.querySelector("#arBox").setAttribute("src", "./assets/PatronUs.glb");
-                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronUs.usdz");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/Test.usdz");
             } else {
               if (a===10) {
                 console.log(a);
                 document.querySelector("#arBox").setAttribute("src", "./assets/PatronUs.glb");
-                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronUs.usdz");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/Test.usdz");
             } else {
               if (a===11) {
                 console.log(a);
                 document.querySelector("#arBox").setAttribute("src", "./assets/PatronUs.glb");
-                document.querySelector("#arBox").setAttribute("ios-src", "./assets/PatronUs.usdz");
+                document.querySelector("#arBox").setAttribute("ios-src", "./assets/Test.usdz");
             } else {
               if (a===12) {
                 console.log(a);
